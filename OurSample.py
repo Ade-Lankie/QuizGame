@@ -1,10 +1,10 @@
 echo "# QuizGame" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Ade-Lankie/QuizGame.git
-git push -u origin main
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/Ade-Lankie/QuizGame.git
+# git push -u origin main
 
 import streamlit as st
 import random
