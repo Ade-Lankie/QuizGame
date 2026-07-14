@@ -9,10 +9,10 @@
 import streamlit as st
 import random
 import time
-from streamlit_autorefresh import st_autorefresh
+#from streamlit_autorefresh import st_autorefresh
 
 # Refresh the page every second
-st_autorefresh(interval=1000, key="refresh")
+#st_autorefresh(interval=1000, key="refresh")
 
 # Quiz questions
 quiz = (
@@ -23,7 +23,7 @@ quiz = (
     ("How many days are there in a leap year?", "366")
 )
 
-st.title("🎯 Python Quiz Game")
+st.title(" Python Quiz Game")
 
 # -------------------------
 # Initialize session state
